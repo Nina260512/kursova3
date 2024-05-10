@@ -1,0 +1,125 @@
+body{
+	padding:0;
+	margin:0;
+	background-image:url(fon.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+h1{
+color:white;	
+font-family:Monotype Corsiva;	
+}
+
+h2{
+color:white;	
+font-family:Monotype Corsiva;	
+}
+
+
+hr{
+width:500px;
+height:5px;	
+background-color:blue;
+}
+
+
+.menu{
+list-style:none;
+}
+li{
+background-color: yellow;
+display: inline-block;
+width: 80px;
+height:25px;
+padding: auto ,auto;
+border: 2px solid black;
+
+}
+a{
+text-decoration:none;
+font-family:Monotype Corsiva;
+color: rgb(0, 0, 0);
+}
+
+.one{
+width:500px;
+height:5px;	
+background-color:pink;	
+}
+
+.two{
+width:1200px;
+height:2px;	
+background-color:white;	
+}
+
+.three{
+width:500px;
+height:5px;	
+background-color:green;	
+}
+
+.four{
+width:500px;
+height:5px;	
+background-color:red;		
+}
+
+.fife{
+width:500px;
+height:5px;	
+background-color:orange;	
+}
+.six{
+width:500px;
+height:5px;	
+background-color:purple;	
+}
+
+img{
+width:300px;
+height:400px;	
+margin:60px	
+}
+
+.ch{
+width:800px;
+height:500px;
+margin:60px		
+}
+.su{
+color:white;	
+font-family:Monotype Corsiva;	
+font-size:200;	
+}
+
+.pictyre{
+width:750px;
+height:450px;
+margin:60px
+}
+
+
+
+footer{
+color:white;	
+font-family:Monotype Corsiva;		
+}
+
+@media (max-width:600px) {
+	h2{
+		color:blue;
+	}
+}
+
+
+
+@media (min-width:601px) and (max-width:1000px){
+	h2{
+		color:red;
+	}
+
+	article{
+		text-align:center;
+	}
+}
